@@ -5,12 +5,9 @@ import './shop.css'
 function Shop() {
   return (
     <div className="shop">
-      <div className="shopTitle">
-        <h1>Device Shop</h1>
-      </div>
       <div className="products">
-        {PRODUCTS.map((product) => (
-          <Product data={product} />
+        {PRODUCTS.map((product, index) => (
+          <Product data={product} key={index} />
         ))}
       </div>
     </div>
