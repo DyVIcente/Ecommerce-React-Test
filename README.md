@@ -5,4 +5,4 @@
 
 <p align="center">Micro exercice de création d'un site E-commerce en React. </p>
 <p align="center">Avec une page Shop, l'ajout d'article et le prix mise à jour automatiquement.</p>
-<p align="center">Modification, suppression deq articles dans le shop. </p>
+<p align="center">Modification, suppression des articles dans le shop. </p>
